@@ -7,7 +7,7 @@ public class OddOrEven {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
 
-        if(n % 2 == 0) System.out.println("Even");
+        if(number % 2 == 0) System.out.println("Even");
         else System.out.println("Odd");
     }
 }
